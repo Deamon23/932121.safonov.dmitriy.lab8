@@ -2,8 +2,8 @@ document.getElementById('addElement').addEventListener('click', function() {
     const table = document.querySelector('tbody');
     const newRow = document.createElement('tr');
     newRow.innerHTML = `
-        <td><input type="text" /></td>
-        <td><input type="text" /></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
         <td>
             <button class="up">↑</button><!--
             --><button class="down">↓</button><!--
